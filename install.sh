@@ -10,7 +10,7 @@ esac
 
 
 # Settings
-conda_env_name=nwb
+conda_env_name=nwb_v1
 if [ $WINDOWS == 1 ]; then
     python_version=2.7
 else

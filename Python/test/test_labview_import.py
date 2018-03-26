@@ -69,7 +69,7 @@ class TestSampleImports(object):
     not os.path.isdir(DATA_PATH),
     reason="raw data folder '{}' not present".format(DATA_PATH))
 @pytest.mark.skipif(
-    os.environ.get('SILVERLAB_SKIP_IMPORTS', '0') == '1',
+    os.environ.get('SILVERLAB_SKIP_IMPORTS', '1') == '1',
     reason="SILVERLAB_SKIP_IMPORTS set to 1")
 class TestFullImporting(object):
 
