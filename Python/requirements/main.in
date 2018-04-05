@@ -1,0 +1,10 @@
+h5py
+numpy
+nwb
+pandas
+six
+tifffile
+npTDMS
+av
+appdirs
+pyyaml

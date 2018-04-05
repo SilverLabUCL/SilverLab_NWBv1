@@ -1,0 +1,10 @@
+people:
+  Mr Test:
+    name: Mr Test
+experiments:
+  test:
+    description: Test experiment description.
+sessions:
+  Mr Test:
+    description: Test epoch calculation
+    experiment: test

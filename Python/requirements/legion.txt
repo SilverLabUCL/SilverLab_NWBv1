@@ -1,0 +1,19 @@
+# This file is copied manually from main.txt and the packages installed
+# via conda (i.e. av, h5py) removed, so as not to break compatibility
+# with Legion's Matlab.
+
+appdirs==1.4.3
+jsonschema==2.6.0
+npTDMS==0.11.0
+numpy==1.12.1
+nwb
+olefile==0.44
+pandas==0.20.1
+Pillow==4.1.1
+py==1.4.33
+pytest==3.0.7
+python-dateutil==2.6.0
+pytz==2017.2
+PyYAML==3.12
+six==1.10.0
+tifffile==0.12.0
